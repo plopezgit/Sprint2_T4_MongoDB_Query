@@ -17,7 +17,7 @@ We have a collection of Restaurant Objects in New York City, and we need some qu
 
 - [x] Enter a query to display the next 5 restaurants after skipping the first 5 in the Bronx.
 
-- [ ] Write a query to find the restaurants that have a score of more than 90.
+- [x] Write a query to find the restaurants that have a score of more than 90.
 
 - [ ] Write a query to find restaurants that have a score of more than 80 but less than 100.
 
