@@ -3,19 +3,19 @@ MongoDB query syntax
 
 We have a collection of Restaurant Objects in New York City, and we need some queries... can you help us?
 
-- [ ] {Write a query to display all documents in the Restaurants collection.
+- [x] {Write a query to display all documents in the Restaurants collection.
 
-- [ ] Write a query to display the restaurant_id, name, borough, and cuisine for all documents in the Restaurants collection.
+- [x] Write a query to display the restaurant_id, name, borough, and cuisine for all documents in the Restaurants collection.
 
-- [ ] Write a query to display the restaurant_id, name, borough, and cuisine, but exclude the _id field for all documents in the Restaurants collection.
+- [x] Write a query to display the restaurant_id, name, borough, and cuisine, but exclude the _id field for all documents in the Restaurants collection.
 
-- [ ] Write a query to display restaurant_id, name, borough, and zip code, but exclude the _id field for all documents in the Restaurants collection.
+- [x] Write a query to display restaurant_id, name, borough, and zip code, but exclude the _id field for all documents in the Restaurants collection.
 
-- [ ] Write a query to show all the restaurants that are in the Bronx.
+- [x] Write a query to show all the restaurants that are in the Bronx.
 
-- [ ] Write a query to show the first 5 restaurants that are in the Bronx.
+- [x] Write a query to show the first 5 restaurants that are in the Bronx.
 
-- [ ] Enter a query to display the next 5 restaurants after skipping the first 5 in the Bronx.
+- [x] Enter a query to display the next 5 restaurants after skipping the first 5 in the Bronx.
 
 - [ ] Write a query to find the restaurants that have a score of more than 90.
 
