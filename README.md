@@ -19,7 +19,7 @@ We have a collection of Restaurant Objects in New York City, and we need some qu
 
 - [x] Write a query to find the restaurants that have a score of more than 90.
 
-- [ ] Write a query to find restaurants that have a score of more than 80 but less than 100.
+- [x] Write a query to find restaurants that have a score of more than 80 but less than 100.
 
 - [ ] Write a query to find restaurants that are located at a latitude value less than -95.754168.
 
