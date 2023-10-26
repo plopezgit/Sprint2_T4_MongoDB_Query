@@ -21,7 +21,7 @@ We have a collection of Restaurant Objects in New York City, and we need some qu
 
 - [x] Write a query to find restaurants that have a score of more than 80 but less than 100.
 
-- [ ] Write a query to find restaurants that are located at a latitude value less than -95.754168.
+- [x] Write a query to find restaurants that are located at a latitude value less than -95.754168.
 
 - [ ] Write a MongoDB query to find restaurants that do not serve any 'American' cuisine and have a rating greater than 70 and longitude less than -65.754168.
 
