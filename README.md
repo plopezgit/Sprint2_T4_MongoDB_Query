@@ -27,7 +27,7 @@ We have a collection of Restaurant Objects in New York City, and we need some qu
 
 - [ ] Write a query to find the restaurants that do not prepare any 'American' cuisine and got a marker more than 70 and located in the longitude less than -65.754168. Note: Do this query without using the $and operator.
 
-- [ ] Enter a query to find restaurants that do not serve any 'American' cuisine and received an 'A' grade point not belonging to Brooklyn. The document should be displayed according to cuisine in descending order.
+- [x] Enter a query to find restaurants that do not serve any 'American' cuisine and received an 'A' grade point not belonging to Brooklyn. The document should be displayed according to cuisine in descending order.
 
 - [x] Write a query to find the restaurant_id, name, borough, and cuisine for those restaurants that contain 'Wil' as the first three letters in their name.
 

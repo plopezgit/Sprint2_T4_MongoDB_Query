@@ -9,10 +9,9 @@ db.restaurant.find({ 'grades.score': {$gt: 90}}, {_id: 0, restaurant_id: 1, grad
 db.restaurant.find({$and: [ { 'grades.score': {$gt: 90}}, { 'grades.score': {$lt: 100}} ]}, {_id: 0, restaurant_id: 1, grades: {score: 1}});
 db.restaurant.find({ 'address.coord': {$lt: -95.754168}}, {_id: 0, restaurant_id: 1, address: {coord: 1}});
 db.restaurant.find({$and: [ {cuisine: {'$regex' : '^((?!American).)*$', '$options' : 'i'} }, { 'grades.score': {$gt: 70}}, {'address.coord': {$lt: -65.754168}}]}, {_id: 0, restaurant_id: 1, cuisine: 1, grades: {score: 1}});
-
+db.restaurant.find({ cuisine: {'$regex' : '^((?!American).)*$', '$options' : 'i'}, 'grades.grade': "A", borough: {'$regex' : '^((?!Brooklyn).)*$', '$options' : 'i'}   },{_id: 0, restaurant_id: 1, name: 1});
 db.restaurant.find({ 'name': {'$regex' : '^Wil', '$options' : 'i'}}, {_id: 0, restaurant_id: 1, name: 1, borough: 1, cuisine: 1 });
 db.restaurant.find({ 'name': {'$regex' : 'ces$', '$options' : 'i'}}, {_id: 0, restaurant_id: 1,  name: 1, borough: 1, cuisine: 1 });
 db.restaurant.find({ 'name': {'$regex' : 'Reg', '$options' : 'i'}}, {_id: 0, restaurant_id: 1,  name: 1, borough: 1, cuisine: 1 });
-
 db.restaurant.find({ 'name': {'$regex' : 'mon', '$options' : 'i'}}, {_id: 0, name: 1, cuisine: 1, borough: 1, address: {coord: 1}  });
 db.restaurant.find({ 'name': {'$regex' : '^Mad', '$options' : 'i'}}, {_id: 0, name: 1, cuisine: 1, borough: 1, address: {coord: 1}  });
