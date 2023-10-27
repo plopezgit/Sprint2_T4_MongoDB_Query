@@ -29,11 +29,11 @@ We have a collection of Restaurant Objects in New York City, and we need some qu
 
 - [ ] Enter a query to find restaurants that do not serve any 'American' cuisine and received an 'A' grade point not belonging to Brooklyn. The document should be displayed according to cuisine in descending order.
 
-- [ ] Write a query to find the restaurant_id, name, borough, and cuisine for those restaurants that contain 'Wil' as the first three letters in their name.
+- [x] Write a query to find the restaurant_id, name, borough, and cuisine for those restaurants that contain 'Wil' as the first three letters in their name.
 
-- [ ] Write a query to find the restaurant_id, name, borough, and cuisine for those restaurants that contain 'ces' as the last three letters in their name.
+- [x] Write a query to find the restaurant_id, name, borough, and cuisine for those restaurants that contain 'ces' as the last three letters in their name.
 
-- [ ] Write a query to find the restaurant_id, name, borough and cuisine for those restaurants that contain 'Reg' as three letters somewhere in their name.
+- [x] Write a query to find the restaurant_id, name, borough and cuisine for those restaurants that contain 'Reg' as three letters somewhere in their name.
 
 - [ ] Write a query to find restaurants that belong to the Bronx and prepare any American or Chinese dish.
 
