@@ -23,7 +23,7 @@ We have a collection of Restaurant Objects in New York City, and we need some qu
 
 - [x] Write a query to find restaurants that are located at a latitude value less than -95.754168.
 
-- [ ] Write a MongoDB query to find restaurants that do not serve any 'American' cuisine and have a rating greater than 70 and longitude less than -65.754168.
+- [x] Write a MongoDB query to find restaurants that do not serve any 'American' cuisine and have a rating greater than 70 and longitude less than -65.754168.
 
 - [ ] Write a query to find the restaurants that do not prepare any 'American' cuisine and got a marker more than 70 and located in the longitude less than -65.754168. Note: Do this query without using the $and operator.
 
@@ -63,6 +63,6 @@ We have a collection of Restaurant Objects in New York City, and we need some qu
 
 - [ ] Write a query that will select the restaurant_id, name, and grade for those restaurants that return 0 as the remainder after dividing the score by 7.
 
-- [ ] Write a query to find the restaurant name, borough, longitude and altitude and cook for those restaurants that contain 'mon' as three letters somewhere in their name.
+- [x] Write a query to find the restaurant name, borough, longitude and altitude and cook for those restaurants that contain 'mon' as three letters somewhere in their name.
 
-- [ ] Write a query to find the restaurant name, borough, longitude and latitude and cook for those restaurants that contain 'Mad' as the first three letters of their name.
+- [x] Write a query to find the restaurant name, borough, longitude and latitude and cook for those restaurants that contain 'Mad' as the first three letters of their name.
