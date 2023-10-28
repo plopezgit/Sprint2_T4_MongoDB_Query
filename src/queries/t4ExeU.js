@@ -15,3 +15,6 @@ db.restaurant.find({ 'name': {'$regex' : 'ces$', '$options' : 'i'}}, {_id: 0, re
 db.restaurant.find({ 'name': {'$regex' : 'Reg', '$options' : 'i'}}, {_id: 0, restaurant_id: 1,  name: 1, borough: 1, cuisine: 1 });
 db.restaurant.find({ 'name': {'$regex' : 'mon', '$options' : 'i'}}, {_id: 0, name: 1, cuisine: 1, borough: 1, address: {coord: 1}  });
 db.restaurant.find({ 'name': {'$regex' : '^Mad', '$options' : 'i'}}, {_id: 0, name: 1, cuisine: 1, borough: 1, address: {coord: 1}  });
+db.restaurant.find(). sort({"name": 1});
+db.restaurant.find(). sort({"name": 1});
+db.restaurant.find({'grades.score': {$lte:10}}, {_id: 0, restaurant_id: 1, name: 1, borough: 1, cuisine: 1 });

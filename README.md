@@ -51,9 +51,9 @@ We have a collection of Restaurant Objects in New York City, and we need some qu
 
 - [ ] Write a query to find the restaurant_id, name, address, and geographic location for those restaurants where the second element of the coord array contains a value greater than 42 and up to 52.
 
-- [ ] Write a query to arrange the restaurant name in ascending order along with all the columns.
+- [x] Write a query to arrange the restaurant name in ascending order along with all the columns.
 
-- [ ] Write a query to arrange the restaurant name in descending order along with all the columns.
+- [x] Write a query to arrange the restaurant name in descending order along with all the columns.
 
 - [ ] Write a query to organize the cuisine name in ascending order and by the same cuisine district. descending order
 
