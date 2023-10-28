@@ -17,4 +17,4 @@ db.restaurant.find({ 'name': {'$regex' : 'mon', '$options' : 'i'}}, {_id: 0, nam
 db.restaurant.find({ 'name': {'$regex' : '^Mad', '$options' : 'i'}}, {_id: 0, name: 1, cuisine: 1, borough: 1, address: {coord: 1}  });
 db.restaurant.find(). sort({"name": 1});
 db.restaurant.find(). sort({"name": 1});
-db.restaurant.find({'grades.score': {$lte:10}}, {_id: 0, restaurant_id: 1, name: 1, borough: 1, cuisine: 1 });
+db.restaurant.find( { 'grades.score': {$gt: 70}, 'address.coord': {$lt: -65.754168}, cuisine: {'$regex' : '^((?!American).)*$', '$options' : 'i'}  } , {_id: 0, restaurant_id: 1, grades: {score: 1}});
