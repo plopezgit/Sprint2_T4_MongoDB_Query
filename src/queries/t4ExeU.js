@@ -18,3 +18,5 @@ db.restaurant.find({ 'name': {'$regex' : '^Mad', '$options' : 'i'}}, {_id: 0, na
 db.restaurant.find(). sort({"name": 1});
 db.restaurant.find(). sort({"name": 1});
 db.restaurant.find( { 'grades.score': {$gt: 70}, 'address.coord': {$lt: -65.754168}, cuisine: {'$regex' : '^((?!American).)*$', '$options' : 'i'}  } , {_id: 0, restaurant_id: 1, grades: {score: 1}});
+db.restaurant.find({$or: [ {borough: "Staten Island"}, {borough: "Queens"}, {borough: "Bronx"}, {borough: "Brooklyn"} ] },{_id: 0, restaurant_id: 1, name: 1, borough: 1, cuisine: 1 });
+db.restaurant.find({'grades.score': {$lte:10}}, {_id: 0, restaurant_id: 1, name: 1, borough: 1, cuisine: 1 });

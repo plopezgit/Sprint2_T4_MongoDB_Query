@@ -37,7 +37,7 @@ We have a collection of Restaurant Objects in New York City, and we need some qu
 
 - [ ] Write a query to find restaurants that belong to the Bronx and prepare any American or Chinese dish.
 
-- [ ] Write a query to find the restaurant_id, name, borough, and cuisine for those restaurants that belong to Staten Island or Queens or Bronx or Brooklyn.
+- [x] Write a query to find the restaurant_id, name, borough, and cuisine for those restaurants that belong to Staten Island or Queens or Bronx or Brooklyn.
 
 - [ ] Write a query to find the restaurant_id, name, borough, and cuisine for those restaurants that are not in Staten Island or Queens or Bronx or Brooklyn.
 
